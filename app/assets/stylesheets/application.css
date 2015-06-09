@@ -1,0 +1,177 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+*= require bootstrap
+*= require bootstrap-theme
+*= require font-awesome.min
+*= require_tree
+*= require_self
+
+ */
+ 
+
+
+
+ 
+ 
+ 
+ /***************
+Global
+***************/
+
+a {
+
+	color:#6a6a6a;
+	text-decoration: none;
+
+	
+}
+
+a:hover {
+
+	color:#337ab7;
+	background-color:transparent;
+	text-decoration:none;
+
+}
+
+/***********
+Header
+************/
+
+header {
+	
+	display:block;
+	padding-top: 1.7rem;
+	text-align: left;
+
+}
+
+.tagline {
+
+	font-size:1.5rem;
+
+}
+
+/***********
+Navigation
+************/
+
+a.nav {
+
+	text-transform:uppercase;
+	text-align: left;
+	color:#666;
+
+}
+
+
+/*****************
+Body
+****************/
+
+body {
+
+	background-color: #e6e6e6;
+	font-family: "Open Sans", Helvetica, Arial, sans-serif;
+	line-height: 170%;
+	vertical-align: baseline;
+	color: #636363;
+	box-shadow:0 2px 6px rgba(100, 100, 100, 0.3);
+}
+
+page {
+
+	box-shadow:0 2px 6px rgba(100, 100, 100, 0.3);
+
+}
+.container {
+
+	display: block;
+	padding-left:1.7rem;
+	padding-right:1.7rem;
+	background-color: white;
+	text-align: left;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:5rem;
+	margin-bottom:5rem;
+	box-shadow:0 2px 6px rgba(100, 100, 100, 0.3);
+	
+}
+
+a.page {
+
+	color:#337ab7;
+
+	
+}
+
+/**************
+Form
+*************/
+label,
+input,
+textarea {
+
+	display: block;
+	
+}
+
+input,
+textarea {
+
+	color:#21759b;
+	margin-bottom: 20px;
+	padding: 5px;
+	box-sizing: border-box;
+	width: 100%;
+	
+}
+
+/**************
+Portfolio
+*************/
+
+
+.portfolio-img{
+
+	padding-left:2rem;
+	padding-right:2rem;
+	padding-top:2rem;
+	padding-bottom:2rem;
+
+}
+
+/**************
+Footer
+**************/
+
+footer {
+
+	padding-bottom: 1.7rem;
+
+}
+
+i {
+
+	padding:4px;
+	font-family: fontawesome;
+}
+
+i:hover {
+
+	color:#337ab7;
+	
+}
+
+
