@@ -1,26 +1,27 @@
-			<form action="#" method="GET" >
-					<div class="row">
-					<div class="col-sm-12 col-lg-12">
-						<label class="blue" for="first_name">First Name</label>
-						<input type="text" name="first_name" id="first_name" />
-					
-					<div class="row">
-					<div class="col-lg-6">
-						<label class="blue" for="last_name">Last Name</label>
-						<input type="text" name="last_name" id="last_name" />
-						
-					</div>
-					
-				</div>
+<%= form_tag("/sendform", method: "post") do %>
+	<form action="#" method="GET" >
+		<div class="row">
+		<div class="col-sm-12 col-lg-12">
+			<label class="blue" for="first_name">First Name</label>
+			<input type="text" name="first_name" id="first_name" />
 
-				<label for="email">Email</label>
-				<input type="email" name="email" id="email"/>
+		<div class="row">
+		<div class="col-lg-6">
+			<label class="blue" for="last_name">Last Name</label>
+			<input type="text" name="last_name" id="last_name" />
 
-				<label for="msg">Message</label>
-				<textarea name="msg" id="msg" rows="10"></textarea>
-				
-				<button type="submit" id="submit-button">Go!</button>
-				
-			</form>
-			
-		</main>
+		</div>
+
+		</div>
+
+		<label for="email">Email</label>
+		<input type="email" name="email" id="email"/>
+
+		<label for="msg">Message</label>
+		<textarea name="msg" id="msg" rows="10"></textarea>
+
+		<button type="submit" id="submit-button">Go!</button>
+
+	</form>
+<% end %>
+</main>
